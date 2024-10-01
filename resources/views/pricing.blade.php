@@ -7,7 +7,7 @@
             <div class="col-md-4">
                 <div class="card text-center bg-light border-info">
                     <div class="card-header bg-info text-white">
-                        Free
+                        Free Plan
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">0 Egyptian Pound / 7 Days</h5>
@@ -22,15 +22,15 @@
                             <li class="list-group-item text-danger">Appear on search: ✘</li>
                             <li class="list-group-item text-danger">Student statistics: ✘</li>
                         </ul>
-                        <a href="#" class="btn btn-info mt-3">Choose</a>
+                        <a href="{{ route('free.plan') }}" class="btn btn-info mt-3">Choose</a>
                     </div>
                 </div>
             </div>
-            <!-- Teacher Plan -->
+            <!-- Plan One -->
             <div class="col-md-4">
                 <div class="card text-center bg-light border-warning">
                     <div class="card-header bg-warning text-white">
-                        Teacher
+                        Plan One
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">600 EGP / Monthly + 20 EGP for each student</h5>
@@ -45,15 +45,15 @@
                             <li class="list-group-item text-success">Appear on search: ✔</li>
                             <li class="list-group-item text-danger">Student statistics: ✘</li>
                         </ul>
-                        <a href="#" class="btn btn-warning mt-3">Choose</a>
+                        <a href="{{ route('plan.1') }}" class="btn btn-warning mt-3">Choose</a>
                     </div>
                 </div>
             </div>
-            <!-- Centers Plan -->
+            <!-- Plan Two -->
             <div class="col-md-4">
                 <div class="card text-center bg-light border-success">
                     <div class="card-header bg-success text-white">
-                        Centers
+                        Plan Two
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">1200 EGP / Monthly + 20 EGP for each student</h5>
@@ -68,7 +68,7 @@
                             <li class="list-group-item text-success">Appear on search: ✔</li>
                             <li class="list-group-item text-success">Student statistics: ✔</li>
                         </ul>
-                        <a href="#" class="btn btn-success mt-3">Choose</a>
+                        <a href="{{ route('plan.2') }}" class="btn btn-success mt-3">Choose</a>
                     </div>
                 </div>
             </div>
