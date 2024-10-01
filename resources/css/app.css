@@ -1,0 +1,29 @@
+.card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+.list-group-item {
+    font-size: 1rem;
+}
+
+.custom-bg-free {
+    background-color: #e3f7fc; /* Light blue */
+}
+
+.custom-bg-teacher {
+    background-color: #fff9e6; /* Light yellow */
+}
+
+.custom-bg-centers {
+    background-color: #e6f8e6; /* Light green */
+}
