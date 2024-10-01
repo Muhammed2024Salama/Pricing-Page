@@ -14,9 +14,8 @@ class SubdomainController extends Controller
     {
         $request->validate([
             'subdomain' => 'required|string|max:255',
-            'plan' => 'required|string',
         ]);
 
-        return redirect()->back()->with('success', 'تم اختيار الخطة بنجاح!');
+        return redirect()->route('dashboard')->with('success', 'Subdomain added successfully!');
     }
 }
